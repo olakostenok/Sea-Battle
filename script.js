@@ -47,7 +47,7 @@ const game = {
 
         for(let i = 0; i < shipSize; i++) {
              if(direction) {
-                    ship.location.push(x + '' + (x + i));
+                    ship.location.push(x + '' + (y + i));
                 } else {
                     ship.location.push((x + i) + '' + y);
                 }
